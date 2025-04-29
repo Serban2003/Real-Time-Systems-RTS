@@ -1,5 +1,4 @@
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.Semaphore;
 
 public class ExecutionThread1 extends Thread{
     CountDownLatch countDownLatchMain;
