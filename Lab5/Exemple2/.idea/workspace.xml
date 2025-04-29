@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c2147e1-6833-46a8-9c23-1f7074e7f265" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Aplication1_Lab4/Aplication1_Lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aplication1_Lab4/src/ExecutionThread_1Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aplication1_Lab4/src/ExecutionThread_2Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exemple1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exemple1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exemple1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exemple1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exemple1/Exemple1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exemple1/src/Fir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exemple2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecutionThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semaphor/src/Fir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab6/Example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab6/Example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab6/Example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab6/Example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab6/Example/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab6/Example/src/Fir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab6/Exercise1/src/ExecutionThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab6/Exercise1/src/ExecutionThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2vQyvCIVayTi3IUfOl9XxN3M3bm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,6 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/iusti/Desktop/Facultate/An 3/Sem 2/STR/Lab5/Exemple1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1744091823308</updated>
       <workItem from="1744091824434" duration="2044000" />
+      <workItem from="1745906483431" duration="22000" />
+      <workItem from="1745906596228" duration="4000" />
+      <workItem from="1745906845449" duration="11000" />
     </task>
     <servers />
   </component>
