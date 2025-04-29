@@ -2,15 +2,13 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 
 public class ExecutionThread extends Thread{
+    CountDownLatch countDownLatchMain;
     CountDownLatch countDownLatch;
-    Semaphore semaphore1;
-    Semaphore semaphore2;
     int sleep, activity_min, activity_max;
 
-    public ExecutionThread(CountDownLatch countDownLatch, Semaphore semaphore1, Semaphore semaphore2, int sleep, int activity_min, int activity_max) {
+    public ExecutionThread(CountDownLatch countDownLatchMain, CountDownLatch countDownLatch, int sleep, int activity_min, int activity_max) {
+        this.countDownLatchMain = countDownLatchMain;
         this.countDownLatch = countDownLatch;
-        this.semaphore1 = semaphore1;
-        this.semaphore2 = semaphore2;
         this.sleep = sleep;
         this.activity_min = activity_min;
         this.activity_max = activity_max;
@@ -33,13 +31,12 @@ public class ExecutionThread extends Thread{
             i--;
         }
 
-        semaphore1.release(1);
-        semaphore2.release(1);
+        countDownLatch.countDown();
 
         System.out.println(this.getName() + " - STATE 3");
-        countDownLatch.countDown();
+        countDownLatchMain.countDown();
         try {
-            countDownLatch.await();
+            countDownLatchMain.await();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
