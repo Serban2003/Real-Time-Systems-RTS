@@ -19,7 +19,8 @@ public class ExecutionThread1 extends Thread{
         while(true){
             System.out.println(this.getName() + " - STATE 1");
 
-            if(semaphore.tryAcquire(1)) {
+            try {
+                semaphore.acquire(1);
                 System.out.println(this.getName() + " - STATE 2");
                 int k = (int) Math.round(Math.random() * (activity_max - activity_min) + activity_min);
 
@@ -33,7 +34,10 @@ public class ExecutionThread1 extends Thread{
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                semaphore.release();
+                semaphore.release(1);
+            }
+            catch (InterruptedException e) {
+                throw new RuntimeException(e);
             }
 
             System.out.println(this.getName() + " - STATE 3");

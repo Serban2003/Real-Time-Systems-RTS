@@ -37,11 +37,11 @@ public class ExecutionThread2 extends Thread{
                     } catch (InterruptedException e) {
                         throw new RuntimeException(e);
                     }
-                    semaphore2.release();
+                    semaphore2.release(1);
                 }catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                semaphore1.release();
+                semaphore1.release(1);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
